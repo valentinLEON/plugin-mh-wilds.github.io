@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Cacher la scrollbar pour Webkit (Chrome, Safari) */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* Désactiver la scrollbar pour Firefox */
+.scrollbar-hide {
+    scrollbar-width: none;
+}
+
+.self-center {
+    align-self: center;
+}

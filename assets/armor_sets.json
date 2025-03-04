@@ -1,0 +1,90 @@
+{
+    "armor_sets_balahara": [
+        {
+            "name": "Balahara Helm",
+            "image_url": "/assets/armor_sets/balahara/helm.png"
+        },
+        {
+            "name": "Balahara Coil",
+            "image_url": "/assets/armor_sets/balahara/coil.png"
+        },
+        {
+            "name": "Balahara Greaves",
+            "image_url": "/assets/armor_sets/balahara/greaves.png"
+        },
+        {
+            "name": "Balahara Mail",
+            "image_url": "/assets/armor_sets/balahara/mail.png"
+        },
+        {
+            "name": "Balahara Vambraces",
+            "image_url": "/assets/armor_sets/balahara/vambraces.png"
+        }
+    ],
+    "armor_sets_chatacabra": [
+        {
+            "name": "Chatacabra Helm",
+            "image_url": "/assets/armor_sets/chatacabra/helm.png"
+        },
+        {
+            "name": "Chatacabra Coil",
+            "image_url": "/assets/armor_sets/chatacabra/coil.png"
+        },
+        {
+            "name": "Chatacabra Greaves",
+            "image_url": "/assets/armor_sets/chatacabra/greaves.png"
+        },
+        {
+            "name": "Chatacabra Mail",
+            "image_url": "/assets/armor_sets/chatacabra/mail.png"
+        },
+        {
+            "name": "Chatacabra Vambraces",
+            "image_url": "/assets/armor_sets/chatacabra/vambraces.png"
+        }
+    ],
+    "armor_sets_doshaguma": [
+        {
+            "name": "Doshaguma Helm",
+            "image_url": "/assets/armor_sets/doshaguma/helm.png"
+        },
+        {
+            "name": "Doshaguma Coil",
+            "image_url": "/assets/armor_sets/doshaguma/coil.png"
+        },
+        {
+            "name": "Doshaguma Greaves",
+            "image_url": "/assets/armor_sets/doshaguma/greaves.png"
+        },
+        {
+            "name": "Doshaguma Mail",
+            "image_url": "/assets/armor_sets/doshaguma/mail.png"
+        },
+        {
+            "name": "Doshaguma Vambraces",
+            "image_url": "/assets/armor_sets/doshaguma/vambraces.png"
+        }
+    ],
+    "armor_sets_hope": [
+        {
+            "name": "Hope Helm",
+            "image_url": "/assets/armor_sets/hope/helm.png"
+        },
+        {
+            "name": "Hope Coil",
+            "image_url": "/assets/armor_sets/hope/coil.png"
+        },
+        {
+            "name": "Hope Greaves",
+            "image_url": "/assets/armor_sets/hope/greaves.png"
+        },
+        {
+            "name": "Hope Mail",
+            "image_url": "/assets/armor_sets/hope/mail.png"
+        },
+        {
+            "name": "Hope Vambraces",
+            "image_url": "/assets/armor_sets/hope/vambraces.png"
+        }
+    ]
+}
