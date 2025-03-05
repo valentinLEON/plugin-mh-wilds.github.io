@@ -41,7 +41,7 @@ function renderMonsters(monsters) {
 
         // Image
         const imageElement = document.createElement("img");
-        imageElement.src = "assets/monsters/" + monster.name.toLowerCase() + ".png";
+        imageElement.src = "assets/monsters/" + monster.name + ".png";
         imageElement.alt = monster.name;
         imageElement.width = 40;
         imageElement.height = 40;
