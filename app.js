@@ -1,13 +1,13 @@
-let isStreamer = true;
+let isStreamer = false;
 
-// window.Twitch.ext.onAuthorized((auth) => {
-//     console.log("Twitch User ID :", auth.userId);
+window.Twitch.ext.onAuthorized((auth) => {
+    console.log("Twitch User ID :", auth.userId);
 
-//     if (auth.userId === TWITCH_KEY) {
-//         isStreamer = true;
-//     }
-//     fetchMonsters();
-// });
+    if (auth.userId === TWITCH_KEY) {
+        isStreamer = true;
+    }
+    fetchMonsters();
+});
 
 // // Chargement des monstres au démarrage
 fetchMonsters();
