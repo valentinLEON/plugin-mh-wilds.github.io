@@ -11,16 +11,17 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="./dist/output.css" rel="stylesheet">
 
+    <link href="./src/styles.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
     <script src="firebaseConfig.js"></script>
     <script src="app.js"></script>
 </head>
 
 <body>
-    <div id="checklist-monsters"
-        class="flex flex-col gap-3 p-3 bg-gradient-to-b from-mhwDarkBlue via-mhwCyan to-mhwGold text-white w-[325px] scrollbar-hide h-[500px] overflow-y-auto">
+    <div class="widget-container">
+        <h2 style="color: white; text-align:center;">Monster Hunter Armors</h2>
+        <div class="checklist-monsters" id="checklist-monsters"></div>
     </div>
 </body>
 

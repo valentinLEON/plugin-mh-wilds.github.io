@@ -1,6 +1,55 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Conteneur principal du widget */
+.widget-container {
+    width: 100%;
+    max-width: 325px;
+    height: 500px;
+    background: linear-gradient(to bottom, #0a2a44, #2c7a8c, #e0a74e);
+    overflow-y: auto; /* Scroll si nécessaire */
+}
+
+/* Style des éléments de la liste */
+.checklist-monsters {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.monster-item {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 20px 20px;
+    border-bottom: 1px solid #ccc;
+    gap: 10px;
+}
+
+/* Style des checkboxes */
+input[type="checkbox"] {
+    transform: scale(1.25);
+    cursor: pointer;
+}
+
+/* Icône verte cachée par défaut */
+.check-icon {
+    font-size: 20px;
+    color: green;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.check-icon.visible {
+    opacity: 1;
+}
+
+/* Scrollbar personnalisée */
+.widget-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.widget-container::-webkit-scrollbar-thumb {
+    background: #e0a74e;
+    border-radius: 10px;
+}
+
 
 /* Cacher la scrollbar pour Webkit (Chrome, Safari) */
 .scrollbar-hide::-webkit-scrollbar {
